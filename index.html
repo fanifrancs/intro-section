@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  	<head>
+	    <meta charset="UTF-8">
+	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	    <meta name="description" content="intro-section-with-dropdown-navigation-main">
+	    <meta name="author" content="fanifrancs">
+	    <title>intro-section</title>
+	    <link rel="shortcut icon" href="./assets/favicon-32x32.png" type="image/x-icon">
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+	    <link rel="stylesheet" href="../../bootstrap-5.1.0-dist/css/bootstrap.min.css">
+	    <link rel="stylesheet" href="./style.css">
+  	</head>
+  	<body>
+	  	<nav class="navbar navbar-expand-sm bg-light fixed-top">
+			<div class="container-fluid">
+			    <a class="navbar-brand" href="#">
+			    	<img src="./assets/logo.svg" alt="logo"> 
+			    </a>
+			    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+			      <span class="navbar-toggler-icon"></span>
+			    </button>
+			    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+				    <div class="offcanvas-header">
+				        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">&nbsp;</h5>
+				        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+				    </div>
+				    <div class="offcanvas-body">
+				        <ul class="navbar-nav justify-content-start flex-grow-1 pe-3">
+				          	<li class="nav-item dropdown">
+					            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+					              Features
+					            </a>
+					            <ul class="dropdown-menu">
+						            <li><a class="dropdown-item" href="#"><img src="./assets/icon-todo.svg" alt="img"> Todo List</a></li>
+						            <li><a class="dropdown-item" href="#"><img src="./assets/icon-calendar.svg" alt="img"> Calender</a></li>
+						            <li><a class="dropdown-item" href="#"><img src="./assets/icon-reminders.svg" alt="img"> Reminders</a></li>
+						            <li><a class="dropdown-item" href="#"><img src="./assets/icon-planning.svg" alt="img"> Planning</a></li>
+					            </ul>
+				          	</li>
+					        <li class="nav-item dropdown">
+					            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+					              Company
+					            </a>
+					            <ul class="dropdown-menu">
+						            <li><a class="dropdown-item" href="#">History</a></li>
+						            <li><a class="dropdown-item" href="#">Our Teams</a></li>
+						            <li><a class="dropdown-item" href="#">Blog</a></li>
+					            </ul>
+					        </li>
+				          	<li class="nav-item">
+	            				<a class="nav-link" aria-current="page" href="#">Careers</a>
+	          				</li>
+	          				<li class="nav-item">
+	            				<a class="nav-link" aria-current="page" href="#">About</a>
+	          				</li>
+				        </ul>
+				        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+				        	<li class="nav-item">
+	            				<a class="nav-link" aria-current="page" href="#">Login</a>
+	          				</li>
+	          				<li class="nav-item">
+	            				<button class="btn btn-outline-dark">Register</button>
+	          				</li>
+				        </ul>
+				    </div>
+			    </div>
+			</div>
+		</nav><br>
+
+		<div class="container" role="main">
+			<div class="row">
+			  	<div class="con-div-1 col-sm-6">
+			  		<br><br>
+				  	<h1 class="heading">Make remote work</h1><br>
+				  	<p class="desc">Get your team in sync, no matter your location. Streamline processes, create team rituals, and watch productivity soar.</p><br>
+				  	<button class="btn btn-dark">Learn more</button><br><br>
+				  	<div class="row">
+				  		<div class="col">
+				  			<img src="./assets/client-databiz.svg" class="rounded img-fluid" alt="client">
+				  		</div>
+				  		<div class="col">
+				  			<img src="./assets/client-audiophile.svg" class="rounded img-fluid" alt="client">
+				  		</div>
+				  		<div class="col">
+				  			<img src="./assets/client-meet.svg" class="rounded img-fluid" alt="client">
+				  		</div>
+				  		<div class="col">
+				  			<img src="./assets/client-maker.svg" class="rounded img-fluid" alt="client">
+				  		</div>
+				  	</div>
+			  	</div>
+			  	<div class="con-div-2 col-sm-6">
+				  	<br><br>
+				  	<img src="./assets/image-hero-desktop.png" class="img-main img-fluid" alt="img"><br><br>
+				</div><br>
+			</div>
+		</div>
+
+		<footer>
+		    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+		    Coded by <a href="https://frontendmentor.io/profile/fanifrancs">Francisco</a>.
+	  	</footer>
+		
+	    <script src="../../bootstrap-5.1.0-dist/js/bootstrap.bundle.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+	    <script src="./app.js"></script>
+  	</body>
+</html>
