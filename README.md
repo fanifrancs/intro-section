@@ -25,8 +25,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [click here](#)
-- Live Site URL: [click here](#)
+- Solution URL: [click here](https://www.frontendmentor.io/solutions/mobilefirst-responsive-solution-qJDjgbjDL-)
+- Live Site URL: [click here](https://fanifrancs.github.io/intro-section/)
 
 ## My process
 
